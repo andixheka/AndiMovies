@@ -14,13 +14,20 @@ class Home extends Controller
      * PAGE: index
      * This method handles what happens when you move to http://yourproject/home/index (which is the default page btw)
      */
-    public function index()
-    {
-        // load views
-        require APP . 'view/_templates/header.php';
-        require APP . 'view/home/index.php';
-        require APP . 'view/_templates/footer.php';
-    }
+    public function index(){
 
+        $query = $this->db->prepare("SELECT * FROM movies order by id desc limit 12");
+        $query->execute();
+        require APP . 'view/_templates/header.php';
+        require APP . 'view/_category/header.php';
+        $row=$query->fetch(PDO::FETCH_ASSOC);
+        $i=0;
+        while ($i<12) { 
+          require APP . 'view/_category/body.php';
+          $i++;
+        }
+        require APP . 'view/_category/footer.php';
+        require APP . 'view/_templates/footer.php';
+    }//
 
 }
