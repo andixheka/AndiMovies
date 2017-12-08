@@ -85,27 +85,27 @@
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
                         <li class="active"><a href="<?php echo URL; ?>">AndiMovies</a>
-                        <li><a href="<?php echo URL; ?>action/"><span>Aksion</span></a></li>
-                        <li><a href="<?php echo URL; ?>animuar/"><span>Animuar</span></a></li>
-                        <li><a href="<?php echo URL; ?>aventure/"><span>Aventurë</span></a></li>
-                        <li><a href="<?php echo URL; ?>biografi/"><span>Biografi</span></a></li>
-                        <li><a href="<?php echo URL; ?>dokumentar/"><span>Dokumentar</span></a></li>
-                        <li><a href="<?php echo URL; ?>drame/"><span>Dramë</span></a></li>
-                     <li class=""><a >Me shume</a>
+                        <li><a href="<?php echo URL; ?>action/"><span>Action</span></a></li>
+                        <li><a href="<?php echo URL; ?>animuar/"><span>Animated</span></a></li>
+                        <li><a href="<?php echo URL; ?>aventure/"><span>Adventure</span></a></li>
+                        <li><a href="<?php echo URL; ?>biografi/"><span>Biography</span></a></li>
+                        <li><a href="<?php echo URL; ?>dokumentar/"><span>Documentary</span></a></li>
+                        <li><a href="<?php echo URL; ?>drame/"><span>Drama</span></a></li>
+                     <li class=""><a >More</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
 
-                        <li><a href="<?php echo URL; ?>erotik/"><span>Erotik</span></a></li>
-                        <li><a href="<?php echo URL; ?>fantashkence/"><span>Fantashkencë</span></a></li>
-                        <li><a href="<?php echo URL; ?>fantazi/"><span>Fantazi</span></a></li>
+                        <li><a href="<?php echo URL; ?>erotik/"><span>Erotic</span></a></li>
+                        <li><a href="<?php echo URL; ?>fantashkence/"><span>Fiction</span></a></li>
+                        <li><a href="<?php echo URL; ?>fantazi/"><span>Fantazy</span></a></li>
                         <li><a href="<?php echo URL; ?>hindi/"><span>Hindi</span></a></li>
-                        <li><a href="<?php echo URL; ?>histori/"><span>Histori</span></a></li>
+                        <li><a href="<?php echo URL; ?>histori/"><span>History</span></a></li>
                         <li><a href="<?php echo URL; ?>horror/"><span>Horror</span></a></li>
-                        <li><a href="<?php echo URL; ?>komedi/"><span>Komedi</span></a></li>
-                        <li><a href="<?php echo URL; ?>krim/"><span>Krim</span></a></li>
-                        <li><a href="<?php echo URL; ?>lufte/"><span>Luftë</span></a></li>
-                        <li><a href="<?php echo URL; ?>mister/"><span>Mister</span></a></li>
-                        <li><a href="<?php echo URL; ?>romance/"><span>Romancë</span></a></li>
+                        <li><a href="<?php echo URL; ?>komedi/"><span>Komedy</span></a></li>
+                        <li><a href="<?php echo URL; ?>krim/"><span>Krime</span></a></li>
+                        <li><a href="<?php echo URL; ?>lufte/"><span>War</span></a></li>
+                        <li><a href="<?php echo URL; ?>mister/"><span>Mystery</span></a></li>
+                        <li><a href="<?php echo URL; ?>romance/"><span>Romance</span></a></li>
                         <li><a href="<?php echo URL; ?>sport/"><span>Sport</span></a></li>
                         <li><a href="<?php echo URL; ?>thriller/"><span>Thriller</span></a></li>
                         <li><a href="<?php echo URL; ?>western-te-tjera/"><span>Western</span></a></li>
@@ -120,7 +120,6 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-128x52.png" alt="" width="128" height="52"/><img class="logo-inverse" src="images/logo-inverse-128x52.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <!-- RD Navbar Search-->
